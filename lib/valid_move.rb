@@ -7,5 +7,5 @@ end
 def position_taken?(board, index)
   if valid_move?(index)
     return board[index] == "X" || board[index] == "O"
-  else return nil  
+  else return nil
 end
